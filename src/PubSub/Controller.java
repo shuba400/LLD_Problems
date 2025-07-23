@@ -9,7 +9,7 @@ import java.util.concurrent.*;
 public class Controller {
     private Map<String,Topic> topicHashMap;
     private final Map<Topic, Map<Subscriber,TopicSubscriber>> topicSubscribers;
-    private ExecutorService executorService;
+    private final ExecutorService executorService;
 
     public Controller(){
         topicHashMap = new ConcurrentHashMap<>();
