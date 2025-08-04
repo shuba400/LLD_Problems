@@ -1,2 +1,8 @@
-package ParkingLot;public enum VehicleType {
+package ParkingLot;
+
+public enum VehicleType {
+    CAR,
+    BIKE,
+    TRUCK,
+    EV
 }
