@@ -1,8 +1,13 @@
-import TicTacToe.TicTacToeRunner;
+
+
+import Elevator.ElevatorSolutionRunner;
+import SolutionRunner.SolutionRunner;
+import VendingMachine.VendingMachineSolutionRunner;
 
 public class Main {
     public static void main(String[] args) {
-        TicTacToeRunner runner = new TicTacToeRunner(3);
-        runner.run();
+
+        SolutionRunner solutionRunner = new VendingMachineSolutionRunner();
+        solutionRunner.run();
     }
 }
